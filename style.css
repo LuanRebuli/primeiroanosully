@@ -1,4 +1,45 @@
-h1 {
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(0, 255, 242);
+    padding: 50px;
+}
+
+#magela {
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(165, 71, 4);
+}
+
+#frase-magela {
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+}
+
+nav {
+    position: relative;
+    padding: 60px;
+    max-height: 100%;
+    background-color: red;
+}
+
+#tabela {
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+}
+
+nav #img-tabela {
+    position: absolute;
+    left: 50px;
 }
